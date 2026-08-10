@@ -175,7 +175,7 @@ $(function () {
         'Message: ' + (msg || '-') + '\n\n' +
         'Please get back to me. Thank you!';
 
-      window.open('https://wa.me/917818018066?text=' + encodeURIComponent(text), '_blank');
+      window.open('https://wa.me/917600490851?text=' + encodeURIComponent(text), '_blank');
     });
   }
 
@@ -229,7 +229,7 @@ $(function () {
         'Message: ' + (msg || '-') + '\n\n' +
         'Please get back to me. Thank you!';
 
-      window.open('https://wa.me/917818018066?text=' + encodeURIComponent(text), '_blank');
+      window.open('https://wa.me/917600490851?text=' + encodeURIComponent(text), '_blank');
     });
   }
   /* =============================================================
