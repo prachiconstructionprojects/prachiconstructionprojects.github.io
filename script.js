@@ -210,10 +210,16 @@ $(function () {
     $('#contactForm').on('submit', function (e) {
       e.preventDefault();
 
+      var projectType = $.trim($('#cfProjectType').val());
       var name = $.trim($('#cfName').val());
       var phone = $.trim($('#cfPhone').val());
       var location = $.trim($('#cfLocation').val());
       var msg = $.trim($('#cfMessage').val());
+
+      if (!projectType) {
+        alert('Please select a project type so we can route your enquiry.');
+        return;
+      }
 
       if (!name || !phone) {
         alert('Please enter your name and phone number so we can reach you.');
@@ -223,6 +229,7 @@ $(function () {
       var text =
         'Hello Prachi Construction Projects!\n\n' +
         'I would like to discuss a project.\n\n' +
+        'Project Type: ' + projectType + '\n' +
         'Name: ' + name + '\n' +
         'Phone: ' + phone + '\n' +
         'Location: ' + (location || 'Not provided') + '\n' +
@@ -232,6 +239,26 @@ $(function () {
       window.open('https://wa.me/917600490851?text=' + encodeURIComponent(text), '_blank');
     });
   }
+
+  if ($('.filter-btn').length) {
+    $('.filter-btn').on('click', function () {
+      var filter = $(this).data('filter');
+      var visible = 0;
+
+      $('.filter-btn').removeClass('active');
+      $(this).addClass('active');
+
+      $('.project-grid > div').each(function () {
+        var category = $(this).find('.project-card').data('category');
+        var show = filter === 'all' || category === filter;
+        $(this).toggleClass('d-none', !show);
+        if (show) visible++;
+      });
+
+      $('#filterNote').prop('hidden', visible !== 0);
+    });
+  }
+
   /* =============================================================
      6. SMOOTH SCROLL for anchor links
      ============================================================= */

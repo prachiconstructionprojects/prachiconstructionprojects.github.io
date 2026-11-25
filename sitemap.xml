@@ -1,33 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://prachiconstructionprojects.github.io/</loc>
-    <lastmod>2026-08-05</lastmod>
-    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://prachiconstructionprojects.github.io/" />
+    <xhtml:link rel="alternate" hreflang="gu-IN" href="https://prachiconstructionprojects.github.io/gu/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://prachiconstructionprojects.github.io/" />
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://prachiconstructionprojects.github.io/about.html</loc>
-    <lastmod>2026-08-05</lastmod>
+    <loc>https://prachiconstructionprojects.github.io/textile-construction-company-surat.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://prachiconstructionprojects.github.io/textile-construction-company-surat.html" />
+    <xhtml:link rel="alternate" hreflang="gu-IN" href="https://prachiconstructionprojects.github.io/gu/textile-construction-surat.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://prachiconstructionprojects.github.io/textile-construction-company-surat.html" />
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/services.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/guides/index.html</loc>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://prachiconstructionprojects.github.io/services.html</loc>
-    <lastmod>2026-08-05</lastmod>
+    <loc>https://prachiconstructionprojects.github.io/textile-gala-unit-construction-surat.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://prachiconstructionprojects.github.io/textile-gala-unit-construction-surat.html" />
+    <xhtml:link rel="alternate" hreflang="gu-IN" href="https://prachiconstructionprojects.github.io/gu/textile-gala-construction-surat.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://prachiconstructionprojects.github.io/textile-gala-unit-construction-surat.html" />
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/airjet-loom-shed-construction-surat.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://prachiconstructionprojects.github.io/airjet-loom-shed-construction-surat.html" />
+    <xhtml:link rel="alternate" hreflang="gu-IN" href="https://prachiconstructionprojects.github.io/gu/airjet-waterjet-loom-shed-construction-surat.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://prachiconstructionprojects.github.io/airjet-loom-shed-construction-surat.html" />
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/waterjet-loom-shed-construction-surat.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://prachiconstructionprojects.github.io/waterjet-loom-shed-construction-surat.html" />
+    <xhtml:link rel="alternate" hreflang="gu-IN" href="https://prachiconstructionprojects.github.io/gu/airjet-waterjet-loom-shed-construction-surat.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://prachiconstructionprojects.github.io/waterjet-loom-shed-construction-surat.html" />
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/loom-machine-foundation-construction-surat.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/textile-processing-house-construction-surat.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/industrial-shed-pre-engineered-building-surat.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/gu/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://prachiconstructionprojects.github.io/" />
+    <xhtml:link rel="alternate" hreflang="gu-IN" href="https://prachiconstructionprojects.github.io/gu/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://prachiconstructionprojects.github.io/" />
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/gu/textile-construction-surat.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://prachiconstructionprojects.github.io/textile-construction-company-surat.html" />
+    <xhtml:link rel="alternate" hreflang="gu-IN" href="https://prachiconstructionprojects.github.io/gu/textile-construction-surat.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://prachiconstructionprojects.github.io/textile-construction-company-surat.html" />
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/gu/textile-gala-construction-surat.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://prachiconstructionprojects.github.io/textile-gala-unit-construction-surat.html" />
+    <xhtml:link rel="alternate" hreflang="gu-IN" href="https://prachiconstructionprojects.github.io/gu/textile-gala-construction-surat.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://prachiconstructionprojects.github.io/textile-gala-unit-construction-surat.html" />
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/gu/airjet-waterjet-loom-shed-construction-surat.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://prachiconstructionprojects.github.io/airjet-loom-shed-construction-surat.html" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://prachiconstructionprojects.github.io/waterjet-loom-shed-construction-surat.html" />
+    <xhtml:link rel="alternate" hreflang="gu-IN" href="https://prachiconstructionprojects.github.io/gu/airjet-waterjet-loom-shed-construction-surat.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://prachiconstructionprojects.github.io/airjet-loom-shed-construction-surat.html" />
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/gu/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://prachiconstructionprojects.github.io/contact.html" />
+    <xhtml:link rel="alternate" hreflang="gu-IN" href="https://prachiconstructionprojects.github.io/gu/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://prachiconstructionprojects.github.io/contact.html" />
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/guides/how-to-build-textile-gala-unit-in-surat.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/guides/airjet-loom-shed-requirements.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/guides/waterjet-loom-shed-requirements.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/guides/loom-machine-foundation-guide.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/guides/textile-unit-construction-cost-factors-surat.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/guides/labour-vs-turnkey-construction-contract.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/guides/approvals-for-industrial-construction-in-surat.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/guides/choosing-a-construction-contractor-for-textile-unit.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://prachiconstructionprojects.github.io/projects.html</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/textile-construction-cost-surat.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prachiconstructionprojects.github.io/about.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://prachiconstructionprojects.github.io/contact.html</loc>
-    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://prachiconstructionprojects.github.io/contact.html" />
+    <xhtml:link rel="alternate" hreflang="gu-IN" href="https://prachiconstructionprojects.github.io/gu/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://prachiconstructionprojects.github.io/contact.html" />
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
 </urlset>

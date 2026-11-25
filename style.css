@@ -362,6 +362,41 @@ img {
   color: var(--secondary);
 }
 
+/* Language switch */
+.language-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-right: 1rem;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.language-switch a {
+  color: inherit;
+}
+
+.language-switch a:hover,
+.language-switch a[aria-current="page"] {
+  color: var(--secondary);
+}
+
+/* Gujarati pages use Noto Sans Gujarati with the same layout */
+html[lang="gu"] body,
+html[lang="gu"] .section-sub,
+html[lang="gu"] .about-text {
+  font-family: 'Noto Sans Gujarati', var(--font-body);
+}
+
+html[lang="gu"] h1,
+html[lang="gu"] h2,
+html[lang="gu"] h3,
+html[lang="gu"] h4,
+html[lang="gu"] h5 {
+  font-family: 'Noto Sans Gujarati', sans-serif;
+}
+
 /* Brochure button */
 .btn-brochure {
   background: var(--secondary);
@@ -1437,6 +1472,13 @@ img {
 .breadcrumb-nav i {
   font-size: 0.7rem;
   opacity: 0.7;
+}
+
+.last-updated {
+  margin-top: 0.55rem;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.85rem;
+  animation: heroFadeUp 0.8s 0.4s both;
 }
 
 /* ---- Company intro (mirrored: image right, content left) ---- */

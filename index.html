@@ -2,15 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+
+  <!-- ===== Analytics: replace G-XXXXXXXXXX before launch ===== -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX', { anonymize_ip: true });
+  </script>
+  <script src="analytics.js" async></script>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- ===== SEO Meta ===== -->
-  <title>Construction Company in Surat | Prachi Construction Projects</title>
-  <meta name="description" content="Prachi Construction Projects is a trusted construction company in Surat, Gujarat. 10+ years of experience in home, commercial, industrial & construction work in Surat with labour & material contracts. Call +91 76004 90851 for a free estimate.">
-  <meta name="keywords" content="construction in Surat, construction work Surat, construction company in Surat, building contractor Surat, civil contractor Surat, home construction Surat, industrial construction Surat, RCC work Surat, labour and material contractor Surat, Prachi Construction Projects">
+  <title>Textile &amp; Industrial Construction in Surat | Prachi</title>
+  <meta name="description" content="Prachi Construction Projects builds textile gala units, loom sheds and industrial factories in Surat. Turnkey labour &amp; material work. Call +91 76004 90851.">
+  <meta name="keywords" content="textile construction company in Surat, industrial construction in Surat, textile gala construction Surat, airjet loom shed Surat, waterjet loom shed Surat, loom machine foundation Surat, textile factory construction Surat, industrial shed construction Surat, Prachi Construction Projects">
   <meta name="author" content="Prachi Construction Projects">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://prachiconstructionprojects.github.io/">
+  <link rel="alternate" hreflang="en-IN" href="https://prachiconstructionprojects.github.io/">
+  <link rel="alternate" hreflang="gu-IN" href="https://prachiconstructionprojects.github.io/gu/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://prachiconstructionprojects.github.io/">
+  <link rel="preload" as="image" href="assets/beautiful-view-construction-site-city-sunset.webp" fetchpriority="high">
 
   <!-- ===== Local SEO / Geo Tags ===== -->
   <meta name="geo.region" content="IN-GJ">
@@ -22,20 +37,20 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Prachi Construction Projects">
   <meta property="og:locale" content="en_IN">
-  <meta property="og:title" content="Construction Company in Surat | Prachi Construction Projects">
-  <meta property="og:description" content="Trusted construction company in Surat with 10+ years of experience. Homes, offices & factories built with labour and materials included. Get a free estimate today.">
-  <meta property="og:image" content="https://prachiconstructionprojects.github.io/assets/beautiful-view-construction-site-city-sunset.jpg">
-  <meta property="og:image:alt" content="Construction site in Surat at sunset">
+  <meta property="og:title" content="Textile &amp; Industrial Construction in Surat | Prachi">
+  <meta property="og:description" content="Textile gala units, airjet and waterjet loom sheds, factory buildings and industrial sheds in Surat. 10+ years of labour and material construction.">
+  <meta property="og:image" content="https://prachiconstructionprojects.github.io/assets/beautiful-view-construction-site-city-sunset.webp">
+  <meta property="og:image:alt" content="Construction site at sunset">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:url" content="https://prachiconstructionprojects.github.io/">
 
   <!-- ===== Twitter Card ===== -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Construction Company in Surat | Prachi Construction Projects">
-  <meta name="twitter:description" content="Trusted construction company in Surat. Homes, offices & factories built on time with quality materials. Call +91 76004 90851 for a free quote.">
-  <meta name="twitter:image" content="https://prachiconstructionprojects.github.io/assets/beautiful-view-construction-site-city-sunset.jpg">
-  <meta name="twitter:image:alt" content="Construction site in Surat at sunset">
+  <meta name="twitter:title" content="Textile &amp; Industrial Construction in Surat | Prachi">
+  <meta name="twitter:description" content="Textile and industrial construction in Surat: gala units, loom sheds and factories. Call +91 76004 90851 for a written estimate.">
+  <meta name="twitter:image" content="https://prachiconstructionprojects.github.io/assets/beautiful-view-construction-site-city-sunset.webp">
+  <meta name="twitter:image:alt" content="Construction site at sunset">
 
   <!-- ===== Structured Data: General Contractor (Local Business) ===== -->
    <script type="application/ld+json">
@@ -45,12 +60,11 @@
   "@id": "https://prachiconstructionprojects.github.io/#organization",
   "name": "Prachi Construction Projects",
   "url": "https://prachiconstructionprojects.github.io/",
-  "logo": "https://prachiconstructionprojects.github.io/assets/site-logo.jpg",
-  "image": "https://prachiconstructionprojects.github.io/assets/beautiful-view-construction-site-city-sunset.jpg",
-  "description": "Leading construction company in Surat, Gujarat offering residential, commercial, and industrial construction with turnkey labour and material contracts.",
+  "logo": "https://prachiconstructionprojects.github.io/assets/site-logo.webp",
+  "image": "https://prachiconstructionprojects.github.io/assets/beautiful-view-construction-site-city-sunset.webp",
+  "description": "Textile and industrial construction company in Surat, Gujarat building gala units, airjet and waterjet loom sheds, factory buildings and processing-unit civil work with turnkey labour and material contracts.",
   "telephone": "+917600490851",
   "email": "prachiconstructionprojects@gmail.com",
-  "priceRange": "₹1400 - ₹2200 per sq ft",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Green Plaza, 129, near D Mart Road, Mota Varachha",
@@ -70,8 +84,13 @@
     "opens": "08:00",
     "closes": "19:00"
   }],
-  "areaServed": ["Surat","Vesu","Adajan","Katargam","City Light","Sachin GIDC","Pandesara","Kadodara","Gujarat"],
+  "areaServed": ["Surat","Pandesara","Sachin GIDC","Udhna","Katargam","Kadodara","Palsana","Kamrej","Mota Varachha","Varachha","Sayan","Olpad","Puna-Kumbhariya","Bhestan","Gujarat"],
   "hasMap": "https://www.google.com/maps?q=Green+Plaza,+near+D+Mart+Road,+Mota+Varachha,+Surat,+Gujarat+394101",
+  "sameAs": [
+    "https://www.facebook.com/prachiconstructionprojects/",
+    "https://www.instagram.com/prachi_construction_projects/",
+    "https://in.linkedin.com/in/prachi-construction-projects-surat-5334a9253"
+  ],
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+917600490851",
@@ -79,43 +98,66 @@
     "availableLanguage": ["English","Hindi","Gujarati"]
   },
   "knowsAbout": [
-    "Turnkey Construction Contracts",
-    "Residential House Building Construction",
-    "Commercial Building Construction",
-    "Industrial Shed & Warehouse Construction",
-    "RCC Structure Work",
-    "Civil Engineering Contracts"
+    "Textile Gala Construction",
+    "Textile Factory Building Construction",
+    "Airjet Loom Shed Construction",
+    "Waterjet Loom Shed Construction",
+    "Loom Machine Foundation Work",
+    "Industrial Shed and Warehouse Construction",
+    "Textile Processing and Dyeing Unit Civil Work",
+    "Turnkey Labour and Material Contracts"
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Construction Services in Surat",
+    "name": "Textile and Industrial Construction Services in Surat",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Residential Construction with Material"
+          "name": "Textile Gala Unit Construction"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Commercial Complex Construction"
+          "name": "Textile Factory Building Construction"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Industrial Shed Construction"
+          "name": "Airjet and Waterjet Loom Shed Construction"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Labour and Material Construction Contract"
+          "name": "Loom Machine Foundation Work"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Industrial Shed and Warehouse Construction"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Textile Processing Unit and ETP Civil Work"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Labour and Material Turnkey Contracts"
         }
       }
     ]
@@ -137,6 +179,20 @@
   }
   </script>
 
+  <!-- ===== Structured Data: WebPage ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://prachiconstructionprojects.github.io/#webpage",
+    "url": "https://prachiconstructionprojects.github.io/",
+    "name": "Textile & Industrial Construction Company in Surat | Prachi",
+    "isPartOf": { "@id": "https://prachiconstructionprojects.github.io/#website" },
+    "about": { "@id": "https://prachiconstructionprojects.github.io/#organization" },
+    "inLanguage": "en-IN"
+  }
+  </script>
+
   <!-- ===== Structured Data: Dynamic FAQ Page ===== -->
 <script type="application/ld+json">
 {
@@ -145,50 +201,98 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the construction cost per sq ft in Surat with material?",
+      "name": "What is the cost of textile gala construction in Surat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "In Surat, residential construction cost with material generally ranges from ₹1,400 to ₹2,200+ per sq ft depending on the quality of steel, cement, tiles, and fittings used."
+        "text": "The cost depends on built-up area, structure type (RCC or PEB), flooring and finishes. We visit the site, review your drawings and then give a written estimate with the material list. [CONFIRM WITH OWNER: industrial rate range per sq ft]"
       }
     },
     {
       "@type": "Question",
-      "name": "Who is the best residential construction contractor in Mota Varachha, Surat?",
+      "name": "How is an airjet loom shed different from a normal industrial shed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Prachi Construction Projects is one of the leading residential construction contractors in Mota Varachha, Surat, offering complete slab-to-finish turnkey services with quality materials."
+        "text": "An airjet loom shed needs a level, stable floor and foundations planned around the machine layout. Compressed-air points, power and flooring have to be coordinated before machines arrive. A standard warehouse shed does not account for these needs, so we plan the civil work around your loom supplier's requirements."
       }
     },
     {
       "@type": "Question",
-      "name": "Do you offer both labor and material contracts for construction in Surat?",
+      "name": "What should be planned for a waterjet loom shed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, we provide full Turnkey Construction Contracts (Labor + Material) as well as Labor-only contracts across Surat, Vesu, Adajan, and Mota Varachha."
+        "text": "Waterjet looms usually need a regular water supply and drainage at the machine line, along with a level floor and stable foundations. We coordinate plumbing and drainage with the flooring and civil work so the shed is ready for installation."
       }
     },
     {
       "@type": "Question",
-      "name": "Which areas in and around Surat do you serve?",
+      "name": "Do you build machine foundations for looms?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We are based in Surat and work across the city and surrounding areas including Vesu, Adajan, Katargam, City Light, Sachin GIDC, Pandesara and Kadodara. For larger industrial projects we also travel within Gujarat."
+        "text": "Yes. We handle civil work for loom machine foundations, including excavation, reinforcement, concreting and flooring coordination. We work from the machine layout you provide and coordinate the rest with your supplier. This keeps the foundation, floor and machine installation in step. [CONFIRM WITH OWNER: machine types and counts handled]"
       }
     },
     {
       "@type": "Question",
-      "name": "Do you provide a written cost estimate before starting work?",
+      "name": "How long does it take to build a textile unit in Surat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Before we start, you get a detailed written estimate with a clear list of the materials and costs involved. You will know exactly what you are paying for — no hidden charges."
+        "text": "It depends on built-up area, structure type, approvals and finishes. We agree a realistic schedule at the start and update you as work progresses. Production deadlines matter, so the sequence is planned around your machine installation date. [CONFIRM WITH OWNER: typical timeline for a textile unit]"
       }
     },
     {
       "@type": "Question",
-      "name": "How long does a typical construction project take?",
+      "name": "Do you offer labour-only or turnkey contracts?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Time depends on the size and type of the work, and on government approvals. We give you a realistic schedule at the start, plan the materials and workers, and update you with regular progress reports until the end."
+        "text": "Both. In a turnkey labour-and-material contract we supply the workers and materials and manage the site. In a labour-only contract you supply the materials and we provide the crew and supervision. We suggest the option that fits your budget and how involved you want to be."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which areas in Surat do you serve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We work across Surat and nearby industrial areas including Pandesara, Sachin GIDC, Udhna, Katargam, Kadodara, Mota Varachha, Varachha, Bhestan and Puna-Kumbhariya. We also take up work in Palsana, Kamrej, Sayan and Olpad. Tell us your site location and we will confirm the work we can take up. [CONFIRM WITH OWNER: confirmed service areas]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you handle civil work for dyeing, printing and processing units?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We take up civil work for textile processing houses, dyeing and printing units, including water drainage and ETP-related civil work. The scope is defined after a site visit and drawing review, so you know exactly what is included before work starts. [CONFIRM WITH OWNER: scope of ETP and drainage work done]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you combine PEB and RCC work for an industrial shed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We handle RCC foundations and structure alongside pre-engineered building work, then complete the industrial flooring and finishing. One team for both trades reduces gaps between foundation, structure and floor work and keeps the schedule simple. It also gives you one point of contact. [CONFIRM WITH OWNER: PEB supply and erection scope]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get an estimate for my textile project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Call +91 76004 90851 or WhatsApp us with your plot size, the type of unit or machine you plan to install, and whether you want labour only or labour and materials. We will arrange a site visit and send a written estimate. There is no obligation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Textile gala banane ka kharcha Surat mein kya hota hai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kharcha plot size, floor area, RCC ya PEB, flooring aur scope par depend karta hai. Drawing aur site dekh kar hum likhit estimate dete hain. [CONFIRM WITH OWNER: industrial rate range per sq ft]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Loom shed construction Surat ke liye kya check karna chahiye?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Machine layout, floor level, power, compressed air, paani aur drainage pehle decide karein. Machine supplier ke drawing ke bina koi technical number nahi batate. [CONFIRM WITH OWNER / STRUCTURAL ENGINEER: approved technical values]"
       }
     }
   ]
@@ -201,6 +305,8 @@
   <!-- ===== Google Fonts: Archivo (headings) + Inter (body) ===== -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- ===== Bootstrap 5 ===== -->
@@ -229,7 +335,7 @@
 
         <!-- Logo -->
         <a class="navbar-brand" href="index.html" aria-label="Prachi Construction Projects Home">
-          <img class="brand-logo" src="assets/site-logo.jpg" alt="Prachi Construction Projects logo">
+          <img loading="lazy" width="761" height="251" class="brand-logo" src="assets/site-logo.webp" alt="Prachi Construction Projects logo">
         </a>
 
         <!-- Hamburger (mobile) -->
@@ -248,6 +354,7 @@
           </ul>
 
           <!-- Get Brochure on WhatsApp button -->
+          <div class="language-switch" aria-label="Language"><a href="index.html" lang="en" aria-current="page">EN</a><span aria-hidden="true">|</span><a href="gu/index.html" lang="gu">ગુજરાતી</a></div>
           <a class="btn btn-brochure" href="https://wa.me/917600490851?text=I%20want%20the%20brochure" target="_blank" rel="noopener">
             <i class="fa-brands fa-whatsapp"></i> Get Brochure on WhatsApp
           </a>
@@ -265,11 +372,11 @@
     <div class="swiper hero-swiper">
       <div class="swiper-wrapper">
         <!-- Slide 1 -->
-        <div class="swiper-slide hero-slide" style="background-image:url('assets/beautiful-view-construction-site-city-sunset.jpg')"></div>
+        <div class="swiper-slide hero-slide" style="background-image:url('assets/beautiful-view-construction-site-city-sunset.webp')"></div>
         <!-- Slide 2 -->
-        <div class="swiper-slide hero-slide" style="background-image:url('assets/view-modern-construction-site.jpg')"></div>
+        <div class="swiper-slide hero-slide" style="background-image:url('assets/view-modern-construction-site.webp')"></div>
         <!-- Slide 3 -->
-        <div class="swiper-slide hero-slide" style="background-image:url('assets/cranes-construction-site.jpg')"></div>
+        <div class="swiper-slide hero-slide" style="background-image:url('assets/cranes-construction-site.webp')"></div>
       </div>
       <div class="swiper-pagination hero-pagination"></div>
     </div>
@@ -279,12 +386,8 @@
 
     <div class="hero-content container">
       <div class="hero-inner">
-        <!-- Headline alternatives (swap as needed):
-             a) "Building Excellence, Delivering Trust"
-             b) "Forging Landmarks That Outlast Time"
-             c) "Strong Foundations, Brighter Futures" -->
-        <h1 class="hero-title">Construction Company in Surat — <span class="hero-highlight">Building Excellence, Delivering Trust</span></h1>
-        <p class="hero-desc">We undertake complete construction work in Surat — homes, offices, shops and factories — handling everything from planning and labour to materials and quality. Clear prices, strong workmanship and on-time delivery, every time.</p>
+        <h1 class="hero-title">Textile &amp; Industrial Construction Company in Surat — <span class="hero-highlight">Built for Production</span></h1>
+        <p class="hero-desc">Prachi Construction Projects builds textile gala units, airjet and waterjet loom sheds, factory buildings and industrial sheds in Surat from our Mota Varachha office. With 10+ years of experience, we handle civil work, RCC, foundations, industrial flooring and turnkey labour &amp; material contracts; call +91 76004 90851.</p>
         <div class="hero-buttons">
           <a href="projects.html" class="btn btn-primary-solid">Explore Projects</a>
           <a href="contact.html" class="btn btn-outline-hero">Contact Us</a>
@@ -306,7 +409,7 @@
         <i class="fa-solid fa-award"></i>
         <div>
           <strong>10+ Years</strong>
-          <span>of Excellence</span>
+          <span>in Construction</span>
         </div>
       </div>
     </div>
@@ -318,8 +421,8 @@
   <section class="stats-section" id="stats">
     <div class="container">
       <div class="section-head text-center" data-aos="fade-up">
-        <span class="eyebrow">Our Track Record</span>
-        <h2 class="section-title">Our Work Speaks</h2>
+        <span class="eyebrow">Industrial Construction</span>
+        <h2 class="section-title">Our Track Record in Surat</h2>
       </div>
 
       <div class="row g-4 justify-content-center">
@@ -328,7 +431,7 @@
           <div class="stat-block">
             <i class="fa-solid fa-users stat-icon"></i>
             <div class="stat-number"><span class="counter" data-target="50">50</span>+</div>
-            <p class="stat-label">Clients Served</p>
+            <p class="stat-label">Clients in Surat</p>
           </div>
         </div>
         <!-- Stat 2 -->
@@ -336,7 +439,7 @@
           <div class="stat-block">
             <i class="fa-solid fa-helmet-safety stat-icon"></i>
             <div class="stat-number"><span class="counter" data-target="50">50</span>+</div>
-            <p class="stat-label">Projects Done</p>
+            <p class="stat-label">Projects Delivered</p>
           </div>
         </div>
         <!-- Stat 3 -->
@@ -344,7 +447,7 @@
           <div class="stat-block">
             <i class="fa-solid fa-ruler-combined stat-icon"></i>
             <div class="stat-number"><span class="counter" data-target="950">950</span>K+</div>
-            <p class="stat-label">Sq.Ft. Constructed Area</p>
+            <p class="stat-label">Sq.Ft. Constructed</p>
           </div>
         </div>
         <!-- Stat 4 -->
@@ -352,7 +455,7 @@
           <div class="stat-block">
             <i class="fa-solid fa-calendar-check stat-icon"></i>
             <div class="stat-number"><span class="counter" data-target="10">10</span>+</div>
-            <p class="stat-label">Years of Experience</p>
+            <p class="stat-label">Years in Construction</p>
           </div>
         </div>
       </div>
@@ -375,7 +478,7 @@
         <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
           <article class="project-card">
             <div class="project-thumb">
-              <img src="assets/project-skyline-residence.jpg" alt="Skyline Residence residential construction project in Vesu, Surat" loading="lazy">
+              <img width="1600" height="1067" src="assets/project-skyline-residence.webp" alt="Skyline Residence residential construction project in Vesu, Surat" loading="lazy">
               <span class="badge-cat">Residential</span>
               <span class="badge-status ongoing">Ongoing</span>
             </div>
@@ -390,7 +493,7 @@
         <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
           <article class="project-card">
             <div class="project-thumb">
-              <img src="assets/project-meridian-business-tower.jpg" alt="Meridian Business Tower commercial construction project in Adajan, Surat" loading="lazy">
+              <img width="1600" height="1067" src="assets/project-meridian-business-tower.webp" alt="Meridian Business Tower commercial construction project in Adajan, Surat" loading="lazy">
               <span class="badge-cat">Commercial</span>
               <span class="badge-status completed">Completed</span>
             </div>
@@ -405,7 +508,7 @@
         <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
           <article class="project-card">
             <div class="project-thumb">
-              <img src="assets/project-vertex-industrial-park.jpg" alt="Vertex Industrial Park industrial construction project in Sachin GIDC, Surat" loading="lazy">
+              <img width="1600" height="1067" src="assets/project-vertex-industrial-park.webp" alt="Vertex Industrial Park industrial construction project in Sachin GIDC, Surat" loading="lazy">
               <span class="badge-cat">Industrial</span>
               <span class="badge-status completed">Completed</span>
             </div>
@@ -420,7 +523,7 @@
         <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
           <article class="project-card">
             <div class="project-thumb">
-              <img src="assets/project-green-valley-villas.jpg" alt="Green Valley Villas residential construction project in City Light, Surat" loading="lazy">
+              <img width="1600" height="1067" src="assets/project-green-valley-villas.webp" alt="Green Valley Villas residential construction project in City Light, Surat" loading="lazy">
               <span class="badge-cat">Residential</span>
               <span class="badge-status completed">Completed</span>
             </div>
@@ -435,7 +538,7 @@
         <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
           <article class="project-card">
             <div class="project-thumb">
-              <img src="assets/project-medicore-hospital-wing.jpg" alt="MediCore Hospital Wing commercial construction project in Athwa, Surat" loading="lazy">
+              <img width="1600" height="1067" src="assets/project-medicore-hospital-wing.webp" alt="MediCore Hospital Wing commercial construction project in Athwa, Surat" loading="lazy">
               <span class="badge-cat">Commercial</span>
               <span class="badge-status ongoing">Ongoing</span>
             </div>
@@ -450,7 +553,7 @@
         <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
           <article class="project-card">
             <div class="project-thumb">
-              <img src="assets/project-steelcraft-warehouse.jpg" alt="SteelCraft Warehouse industrial construction project in Pandesara, Surat" loading="lazy">
+              <img width="1600" height="1067" src="assets/project-steelcraft-warehouse.webp" alt="SteelCraft Warehouse industrial construction project in Pandesara, Surat" loading="lazy">
               <span class="badge-cat">Industrial</span>
               <span class="badge-status ongoing">Ongoing</span>
             </div>
@@ -469,6 +572,44 @@
     </div>
   </section>
 
+  <section class="services-section" id="textile-services">
+    <div class="container">
+      <div class="section-head text-center" data-aos="fade-up">
+        <span class="eyebrow">Core Work</span>
+        <h2 class="section-title">Textile Construction Services in Surat</h2>
+        <p class="section-sub">Dedicated civil work for textile units — from gala buildings and loom sheds to machine foundations and processing houses.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up">
+          <a href="textile-gala-unit-construction-surat.html" class="service-card d-block text-decoration-none"><span class="service-num">01</span><i class="fa-solid fa-industry service-icon"></i><h3>Textile Gala Units</h3><p>Gala buildings planned around machine rows, clear height, drainage and future extension space.</p></a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="50">
+          <a href="airjet-loom-shed-construction-surat.html" class="service-card d-block text-decoration-none"><span class="service-num">02</span><i class="fa-solid fa-warehouse service-icon"></i><h3>Airjet Loom Sheds</h3><p>Level floors, clean power routes and ventilation planned around your airjet machine layout.</p></a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <a href="waterjet-loom-shed-construction-surat.html" class="service-card d-block text-decoration-none"><span class="service-num">03</span><i class="fa-solid fa-droplet service-icon"></i><h3>Waterjet Loom Sheds</h3><p>Water supply, floor falls and drainage detailed together for waterjet weaving units.</p></a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up">
+          <a href="loom-machine-foundation-construction-surat.html" class="service-card d-block text-decoration-none"><span class="service-num">04</span><i class="fa-solid fa-layer-group service-icon"></i><h3>Loom Machine Foundations</h3><p>Foundations for airjet, waterjet, rapier, knitting and embroidery machines, coordinated with supplier drawings.</p></a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="50">
+          <a href="textile-processing-house-construction-surat.html" class="service-card d-block text-decoration-none"><span class="service-num">05</span><i class="fa-solid fa-diagram-project service-icon"></i><h3>Processing &amp; Dyeing Houses</h3><p>Civil work for dyeing, printing and finishing areas, including water routes and ETP-related drainage.</p></a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <a href="industrial-shed-pre-engineered-building-surat.html" class="service-card d-block text-decoration-none"><span class="service-num">06</span><i class="fa-solid fa-hammer service-icon"></i><h3>Industrial Sheds &amp; PEB</h3><p>PEB and RCC shells for factories, warehouses and godowns with practical loading and access planning.</p></a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up">
+          <a href="textile-construction-cost-surat.html" class="service-card d-block text-decoration-none"><span class="service-num">07</span><i class="fa-solid fa-calculator service-icon"></i><h3>Textile Construction Cost Guide</h3><p>Understand what drives a written estimate — scope, structure, utilities, foundations and finishes.</p></a>
+        </div>
+      </div>
+
+      <div class="text-center mt-5" data-aos="fade-up">
+        <a href="textile-construction-company-surat.html" class="btn btn-outline-fill">Explore Textile Construction</a>
+      </div>
+    </div>
+  </section>
+
   <!-- ============================================================= -->
   <!-- 5. OUR SERVICES                                               -->
   <!-- ============================================================= -->
@@ -477,26 +618,26 @@
       <div class="section-head text-center" data-aos="fade-up">
         <span class="eyebrow">What We Do</span>
         <h2 class="section-title">Our Services</h2>
-        <p class="section-sub">Simple, complete construction services in Surat — from the concrete structure to the final finish.</p>
+        <p class="section-sub">Complete construction services in Surat — with textile and industrial work first, from the concrete structure to the final finish.</p>
       </div>
 
       <div class="row g-4">
-        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up"><article class="service-card"><span class="service-num">01</span><i class="fa-solid fa-map-location-dot service-icon"></i><h3>Complete Home Construction</h3><p>Homes, villas and residential buildings — built from foundation to final finish.</p></article></div>
-        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="50"><article class="service-card"><span class="service-num">02</span><i class="fa-solid fa-calculator service-icon"></i><h3>Cost Estimation &amp; Budget Planning</h3><p>Clear, written cost estimates before work starts — no hidden charges.</p></article></div>
-        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100"><article class="service-card"><span class="service-num">03</span><i class="fa-solid fa-pen-ruler service-icon"></i><h3>Design &amp; Planning</h3><p>Help with the layout and design of your project before we start building.</p></article></div>
-        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="150"><article class="service-card"><span class="service-num">04</span><i class="fa-solid fa-diagram-project service-icon"></i><h3>Construction Management</h3><p>We manage labour, materials and progress — you stay fully informed.</p></article></div>
-        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up"><article class="service-card"><span class="service-num">05</span><i class="fa-solid fa-trowel-bricks service-icon"></i><h3>Concrete Structure (RCC) Work</h3><p>Columns, beams and slabs built with quality concrete and strong steel.</p></article></div>
-        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="50"><article class="service-card"><span class="service-num">06</span><i class="fa-solid fa-road service-icon"></i><h3>Plastering &amp; Flooring</h3><p>Smooth, neat wall finishes and strong, durable flooring.</p></article></div>
-        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100"><article class="service-card"><span class="service-num">07</span><i class="fa-solid fa-hammer service-icon"></i><h3>Complete Civil Work</h3><p>Foundations, walls and the full civil construction of your building.</p></article></div>
-        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="150"><article class="service-card"><span class="service-num">08</span><i class="fa-solid fa-building service-icon"></i><h3>Commercial Construction</h3><p>Shops, offices, IT parks and business spaces built for daily use.</p></article></div>
-        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up"><article class="service-card"><span class="service-num">09</span><i class="fa-solid fa-industry service-icon"></i><h3>Industrial Construction</h3><p>Factories, sheds and warehouses built strong and delivered on time.</p></article></div>
-        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="50"><article class="service-card"><span class="service-num">10</span><i class="fa-solid fa-paint-roller service-icon"></i><h3>Renovation &amp; Remodeling</h3><p>Redesign and rebuild your existing space to look and work better.</p></article></div>
-        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100"><article class="service-card"><span class="service-num">11</span><i class="fa-solid fa-layer-group service-icon"></i><h3>Structure Strengthening</h3><p>Reinforce old or weak structures so they stay strong and safe.</p></article></div>
-        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="150"><article class="service-card"><span class="service-num">12</span><i class="fa-solid fa-warehouse service-icon"></i><h3>Labour &amp; Material Contract</h3><p>Workers and materials from one company — one contract, one responsibility.</p></article></div>
+        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up"><article class="service-card"><span class="service-num">01</span><i class="fa-solid fa-industry service-icon"></i><h3>Industrial Construction</h3><p>Textile gala units, loom sheds, factories and warehouses built for production use in Surat.</p></article></div>
+        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="50"><article class="service-card"><span class="service-num">02</span><i class="fa-solid fa-hammer service-icon"></i><h3>Complete Civil Work</h3><p>Foundations, walls and full civil work for textile and industrial buildings.</p></article></div>
+        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100"><article class="service-card"><span class="service-num">03</span><i class="fa-solid fa-trowel-bricks service-icon"></i><h3>Concrete Structure (RCC) Work</h3><p>Columns, beams and slabs for factory buildings and machine foundations.</p></article></div>
+        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="150"><article class="service-card"><span class="service-num">04</span><i class="fa-solid fa-warehouse service-icon"></i><h3>Labour &amp; Material Contract</h3><p>Workers and materials for your textile or industrial unit under one contract.</p></article></div>
+        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up"><article class="service-card"><span class="service-num">05</span><i class="fa-solid fa-map-location-dot service-icon"></i><h3>Complete Home Construction</h3><p>Homes, villas and residential buildings — built from foundation to final finish.</p></article></div>
+        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="50"><article class="service-card"><span class="service-num">06</span><i class="fa-solid fa-calculator service-icon"></i><h3>Cost Estimation &amp; Budget Planning</h3><p>Clear, written estimates before work starts — for textile units and other buildings.</p></article></div>
+        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100"><article class="service-card"><span class="service-num">07</span><i class="fa-solid fa-pen-ruler service-icon"></i><h3>Design &amp; Planning</h3><p>Help with the layout and design of your project before we start building.</p></article></div>
+        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="150"><article class="service-card"><span class="service-num">08</span><i class="fa-solid fa-diagram-project service-icon"></i><h3>Construction Management</h3><p>We manage labour, materials and progress — you stay fully informed.</p></article></div>
+        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up"><article class="service-card"><span class="service-num">09</span><i class="fa-solid fa-road service-icon"></i><h3>Plastering &amp; Flooring</h3><p>Neat wall finishes and durable industrial flooring for sheds and units.</p></article></div>
+        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="50"><article class="service-card"><span class="service-num">10</span><i class="fa-solid fa-building service-icon"></i><h3>Commercial Construction</h3><p>Shops, offices, IT parks and business spaces built for daily use.</p></article></div>
+        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100"><article class="service-card"><span class="service-num">11</span><i class="fa-solid fa-paint-roller service-icon"></i><h3>Renovation &amp; Remodeling</h3><p>Redesign and rebuild your existing space to look and work better.</p></article></div>
+        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="150"><article class="service-card"><span class="service-num">12</span><i class="fa-solid fa-layer-group service-icon"></i><h3>Structure Strengthening</h3><p>Reinforce old or weak structures so they stay strong and safe.</p></article></div>
         <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up"><article class="service-card"><span class="service-num">13</span><i class="fa-solid fa-hotel service-icon"></i><h3>Hospitality Construction</h3><p>Hotels and guest houses built for comfort, safety and long life.</p></article></div>
         <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="50"><article class="service-card"><span class="service-num">14</span><i class="fa-solid fa-hospital service-icon"></i><h3>Healthcare &amp; Pharma Construction</h3><p>Clean, safe and compliant spaces for hospitals and pharma units.</p></article></div>
         <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100"><article class="service-card"><span class="service-num">15</span><i class="fa-solid fa-hard-hat service-icon"></i><h3>Structural Consultancy</h3><p>Expert advice to make sure your building is designed to be safe.</p></article></div>
-        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="150"><article class="service-card"><span class="service-num">16</span><i class="fa-solid fa-chart-line service-icon"></i><h3>Infrastructure &amp; Land Development</h3><p>Roads, drainage and site development that prepare your land for building.</p></article></div>
+        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="150"><article class="service-card"><span class="service-num">16</span><i class="fa-solid fa-chart-line service-icon"></i><h3>Infrastructure &amp; Land Development</h3><p>Roads, drainage and site development for industrial plots in Surat.</p></article></div>
       </div>
     </div>
   </section>
@@ -513,12 +654,12 @@
           <div class="about-media">
             <div class="about-frame"></div>
             <!-- about section image -->
-            <img src="assets/illustration-construction-site.jpg" alt="Prachi Construction Projects construction team working on a building site in Surat" loading="lazy">
+            <img width="1600" height="914" src="assets/illustration-construction-site.webp" alt="Construction team working on a building site" loading="lazy">
             <div class="about-badge">
               <i class="fa-solid fa-trophy"></i>
               <div>
                 <strong>10+ Years</strong>
-                <span>of Excellence</span>
+                <span>in Construction</span>
               </div>
             </div>
           </div>
@@ -526,22 +667,89 @@
 
         <!-- Right: content -->
         <div class="col-lg-6" data-aos="fade-left">
-          <span class="eyebrow">About Our Company</span>
-          <h2 class="section-title text-start">Your Trusted Construction Partner in Surat</h2>
-          <p class="about-text">Prachi Construction Projects is a trusted construction company in Surat. For over 10 years, we have handled construction work in Surat — homes, offices, shops and factories — with quality materials and skilled workers, from planning and labour to materials and quality.</p>
-          <p class="about-text">We believe in clear prices, honest communication and work delivered on time. That is why customers across Surat trust us with their most important projects.</p>
+          <span class="eyebrow">About Our Industrial Work</span>
+          <h2 class="section-title text-start">Textile &amp; Industrial Construction Partner in Surat</h2>
+          <p class="about-text">Prachi Construction Projects has over 10 years of construction experience in Surat. Today our focus is textile and industrial work — gala units, airjet and waterjet loom sheds, factory buildings and the civil work that supports production.</p>
+          <p class="about-text">We handle planning, labour, materials and site management under one contract, so factory owners deal with one team from foundation to handover. Clear estimates and regular updates are part of every job.</p>
 
           <ul class="about-check-list">
-            <li><i class="fa-solid fa-circle-check"></i> Licensed &amp; Insured</li>
-            <li><i class="fa-solid fa-circle-check"></i> On-Time Delivery</li>
-            <li><i class="fa-solid fa-circle-check"></i> Expert Team</li>
-            <li><i class="fa-solid fa-circle-check"></i> Quality Materials</li>
+            <li><i class="fa-solid fa-circle-check"></i> Labour + Material Contracts</li>
+            <li><i class="fa-solid fa-circle-check"></i> Textile Units &amp; Loom Sheds</li>
+            <li><i class="fa-solid fa-circle-check"></i> Industrial Flooring &amp; RCC Work</li>
+            <li><i class="fa-solid fa-circle-check"></i> Experienced Site Team</li>
           </ul>
 
           <a href="about.html" class="btn btn-outline-fill">Read More</a>
         </div>
 
       </div>
+    </div>
+  </section>
+
+  <section class="about-section" id="why-textile">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="about-media">
+            <div class="about-frame"></div>
+            <img width="1600" height="1067" src="assets/view-modern-construction-site.webp" alt="Modern construction site with a building frame" loading="lazy">
+            <div class="about-badge">
+              <i class="fa-solid fa-industry"></i>
+              <div>
+                <strong>Textile Units</strong>
+                <span>Gala, loom sheds &amp; factories</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-left">
+          <span class="eyebrow">Why Choose Us</span>
+          <h2 class="section-title text-start">Why Textile Owners in Surat Choose Us</h2>
+          <p class="about-text">A textile unit is a working factory, not just a building. We plan the civil work around your machines, utilities and production schedule, so the shed is ready when the machines arrive.</p>
+          <p class="about-text">From foundation and flooring to drainage and handover, one team manages labour and materials for the whole job.</p>
+
+          <ul class="about-check-list">
+            <li><i class="fa-solid fa-circle-check"></i> Foundations planned around loom layout</li>
+            <li><i class="fa-solid fa-circle-check"></i> Load and vibration points reviewed before work</li>
+            <li><i class="fa-solid fa-circle-check"></i> Power, water and drainage coordinated</li>
+            <li><i class="fa-solid fa-circle-check"></i> Work sequenced to help you start production sooner</li>
+            <li><i class="fa-solid fa-circle-check"></i> Labour and materials under one contract</li>
+          </ul>
+
+          <p class="about-text"><em>[CONFIRM WITH OWNER: foundation drawing responsibility and load/vibration checks]</em></p>
+          <a href="contact.html" class="btn btn-outline-fill">Discuss Your Unit</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="services-section" id="areas">
+    <div class="container">
+      <div class="section-head text-center" data-aos="fade-up">
+        <span class="eyebrow">Local Reach</span>
+        <h2 class="section-title">Areas We Serve</h2>
+        <p class="section-sub">Textile and industrial construction work across Surat and nearby industrial belts.</p>
+      </div>
+
+      <ul class="about-check-list" data-aos="fade-up">
+        <li><i class="fa-solid fa-location-dot"></i> Pandesara</li>
+        <li><i class="fa-solid fa-location-dot"></i> Sachin GIDC</li>
+        <li><i class="fa-solid fa-location-dot"></i> Udhna</li>
+        <li><i class="fa-solid fa-location-dot"></i> Katargam</li>
+        <li><i class="fa-solid fa-location-dot"></i> Kadodara</li>
+        <li><i class="fa-solid fa-location-dot"></i> Palsana</li>
+        <li><i class="fa-solid fa-location-dot"></i> Kamrej</li>
+        <li><i class="fa-solid fa-location-dot"></i> Mota Varachha</li>
+        <li><i class="fa-solid fa-location-dot"></i> Varachha</li>
+        <li><i class="fa-solid fa-location-dot"></i> Sayan</li>
+        <li><i class="fa-solid fa-location-dot"></i> Olpad</li>
+        <li><i class="fa-solid fa-location-dot"></i> Puna-Kumbhariya</li>
+        <li><i class="fa-solid fa-location-dot"></i> Bhestan</li>
+      </ul>
+
+      <p class="section-sub text-center mt-4">[CONFIRM WITH OWNER: confirmed service areas]</p>
     </div>
   </section>
 
@@ -580,86 +788,164 @@
       <div class="section-head text-center" data-aos="fade-up">
         <span class="eyebrow"><i class="fa-solid fa-circle-question me-2"></i>Frequently Asked</span>
         <h2 class="section-title">Frequently Asked Questions (FAQs)</h2>
-        <p class="section-sub">A few things clients usually ask before starting a construction project in Surat.</p>
+        <p class="section-sub">Common questions from factory owners and textile units planning construction in Surat.</p>
       </div>
 
       <div class="faq-wrap" data-aos="fade-up">
         <div class="accordion" id="faqAccordion">
 
           <div class="faq-acc-item">
-            <h2 class="accordion-header">
+            <h3 class="accordion-header">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true">
-                What is the construction cost per sq ft in Surat with material?
+                What is the cost of textile gala construction in Surat?
               </button>
-            </h2>
+            </h3>
             <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
               <div class="accordion-body">
-                In Surat, residential construction cost with material generally ranges from ₹1,400 to ₹2,200+ per sq ft depending on the quality of steel, cement, tiles, and fittings used.
+                The cost depends on built-up area, structure type (RCC or PEB), flooring and finishes. We visit the site, review your drawings and then give a written estimate with the material list. [CONFIRM WITH OWNER: industrial rate range per sq ft]
               </div>
             </div>
           </div>
 
           <div class="faq-acc-item">
-            <h2 class="accordion-header">
+            <h3 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-                Who is the best residential construction contractor in Mota Varachha, Surat?
+                How is an airjet loom shed different from a normal industrial shed?
               </button>
-            </h2>
+            </h3>
             <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div class="accordion-body">
-                Prachi Construction Projects is one of the leading residential construction contractors in Mota Varachha, Surat, offering complete slab-to-finish turnkey services with quality materials.
+                An airjet loom shed needs a level, stable floor and foundations planned around the machine layout. Compressed-air points, power and flooring have to be coordinated before machines arrive. A standard warehouse shed does not account for these needs, so we plan the civil work around your loom supplier's requirements.
               </div>
             </div>
           </div>
 
           <div class="faq-acc-item">
-            <h2 class="accordion-header">
+            <h3 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
-                Do you offer both labor and material contracts for construction in Surat?
+                What should be planned for a waterjet loom shed?
               </button>
-            </h2>
+            </h3>
             <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div class="accordion-body">
-                Yes, we provide full Turnkey Construction Contracts (Labor + Material) as well as Labor-only contracts across Surat, Vesu, Adajan, and Mota Varachha.
+                Waterjet looms usually need a regular water supply and drainage at the machine line, along with a level floor and stable foundations. We coordinate plumbing and drainage with the flooring and civil work so the shed is ready for installation.
               </div>
             </div>
           </div>
 
           <div class="faq-acc-item">
-            <h2 class="accordion-header">
+            <h3 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
-                Which areas in and around Surat do you serve?
+                Do you build machine foundations for looms?
               </button>
-            </h2>
+            </h3>
             <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div class="accordion-body">
-                We are based in Surat and work across the city and surrounding areas including Vesu, Adajan, Katargam, City Light, Sachin GIDC, Pandesara and Kadodara. For larger industrial projects we also travel within Gujarat.
+                Yes. We handle civil work for loom machine foundations, including excavation, reinforcement, concreting and flooring coordination. We work from the machine layout you provide and coordinate the rest with your supplier. This keeps the foundation, floor and machine installation in step. [CONFIRM WITH OWNER: machine types and counts handled]
               </div>
             </div>
           </div>
 
           <div class="faq-acc-item">
-            <h2 class="accordion-header">
+            <h3 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
-                Do you provide a written cost estimate before starting work?
+                How long does it take to build a textile unit in Surat?
               </button>
-            </h2>
+            </h3>
             <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div class="accordion-body">
-                Yes. Before we start, you get a detailed written estimate with a clear list of the materials and costs involved. You will know exactly what you are paying for — no hidden charges.
+                It depends on built-up area, structure type, approvals and finishes. We agree a realistic schedule at the start and update you as work progresses. Production deadlines matter, so the sequence is planned around your machine installation date. [CONFIRM WITH OWNER: typical timeline for a textile unit]
               </div>
             </div>
           </div>
 
           <div class="faq-acc-item">
-            <h2 class="accordion-header">
+            <h3 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
-                How long does a typical construction project take?
+                Do you offer labour-only or turnkey contracts?
               </button>
-            </h2>
+            </h3>
             <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div class="accordion-body">
-                Time depends on the size and type of the work, and on government approvals. We give you a realistic schedule at the start, plan the materials and workers, and update you with regular progress reports until the end.
+                Both. In a turnkey labour-and-material contract we supply the workers and materials and manage the site. In a labour-only contract you supply the materials and we provide the crew and supervision. We suggest the option that fits your budget and how involved you want to be.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-acc-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">
+                Which areas in Surat do you serve?
+              </button>
+            </h3>
+            <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                We work across Surat and nearby industrial areas including Pandesara, Sachin GIDC, Udhna, Katargam, Kadodara, Mota Varachha, Varachha, Bhestan and Puna-Kumbhariya. We also take up work in Palsana, Kamrej, Sayan and Olpad. Tell us your site location and we will confirm the work we can take up. [CONFIRM WITH OWNER: confirmed service areas]
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-acc-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8">
+                Do you handle civil work for dyeing, printing and processing units?
+              </button>
+            </h3>
+            <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Yes. We take up civil work for textile processing houses, dyeing and printing units, including water drainage and ETP-related civil work. The scope is defined after a site visit and drawing review, so you know exactly what is included before work starts. [CONFIRM WITH OWNER: scope of ETP and drainage work done]
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-acc-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq9">
+                Can you combine PEB and RCC work for an industrial shed?
+              </button>
+            </h3>
+            <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Yes. We handle RCC foundations and structure alongside pre-engineered building work, then complete the industrial flooring and finishing. One team for both trades reduces gaps between foundation, structure and floor work and keeps the schedule simple. It also gives you one point of contact. [CONFIRM WITH OWNER: PEB supply and erection scope]
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-acc-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq10">
+                How do I get an estimate for my textile project?
+              </button>
+            </h3>
+            <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Call +91 76004 90851 or WhatsApp us with your plot size, the type of unit or machine you plan to install, and whether you want labour only or labour and materials. We will arrange a site visit and send a written estimate. There is no obligation.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-acc-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq11">
+                Textile gala banane ka kharcha Surat mein kya hota hai?
+              </button>
+            </h3>
+            <div id="faq11" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Kharcha plot size, floor area, RCC ya PEB, flooring aur scope par depend karta hai. Drawing aur site dekh kar hum likhit estimate dete hain. [CONFIRM WITH OWNER: industrial rate range per sq ft]
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-acc-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq12">
+                Loom shed construction Surat ke liye kya check karna chahiye?
+              </button>
+            </h3>
+            <div id="faq12" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Machine layout, floor level, power, compressed air, paani aur drainage pehle decide karein. Machine supplier ke drawing ke bina koi technical number nahi batate. [CONFIRM WITH OWNER / STRUCTURAL ENGINEER: approved technical values]
               </div>
             </div>
           </div>
@@ -676,7 +962,7 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="enquiryModalLabel">Enquire Now</h5>
+          <h2 class="modal-title" id="enquiryModalLabel">Enquire Now</h2>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -725,9 +1011,9 @@
         <!-- Column 1: logo + description + socials -->
         <div class="col-lg-4 col-md-6">
           <a class="navbar-brand footer-brand" href="index.html">
-            <img class="brand-logo" src="assets/site-logo.jpg" alt="Prachi Construction Projects logo">
+            <img loading="lazy" width="761" height="251" class="brand-logo" src="assets/site-logo.webp" alt="Prachi Construction Projects logo">
           </a>
-          <p class="footer-desc">Complete construction services for homes, offices and factories. We provide labour, materials and management — delivered with quality and on time.</p>
+          <p class="footer-desc">Textile and industrial construction in Surat — gala units, loom sheds, factory buildings and processing-unit civil work. Labour, materials and management from one team.</p>
           <div class="social-links">
             <a href="https://www.facebook.com/prachiconstructionprojects/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
             <a href="https://www.instagram.com/prachi_construction_projects/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
@@ -738,19 +1024,28 @@
 
         <!-- Column 2: quick nav -->
         <div class="col-lg-2 col-md-6">
-          <h4 class="footer-title">Quick Links</h4>
+          <h3 class="footer-title">Quick Links</h3>
           <ul class="footer-links">
             <li><a href="index.html">Home</a></li>
+            <li><a href="guides/index.html">Guides</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a href="textile-construction-company-surat.html">Textile Construction</a></li>
+            <li><a href="textile-gala-unit-construction-surat.html">Textile Gala Units</a></li>
+            <li><a href="airjet-loom-shed-construction-surat.html">Airjet Loom Sheds</a></li>
+            <li><a href="waterjet-loom-shed-construction-surat.html">Waterjet Loom Sheds</a></li>
+            <li><a href="loom-machine-foundation-construction-surat.html">Loom Foundations</a></li>
+            <li><a href="textile-processing-house-construction-surat.html">Processing Houses</a></li>
+            <li><a href="industrial-shed-pre-engineered-building-surat.html">Industrial Sheds &amp; PEB</a></li>
+            <li><a href="textile-construction-cost-surat.html">Textile Construction Cost</a></li>
           </ul>
         </div>
 
         <!-- Column 3: contact info -->
         <div class="col-lg-3 col-md-6">
-          <h4 class="footer-title">Get In Touch</h4>
+          <h3 class="footer-title">Get In Touch</h3>
           <ul class="footer-contact">
             <li><i class="fa-solid fa-location-dot"></i> Green Plaza, 129, near D Mart Road, Mota Varachha, Surat, Gujarat 394101</li>
             <li><i class="fa-solid fa-clock"></i> Mon – Sun: 8:00 AM – 7:00 PM </li>
@@ -761,7 +1056,7 @@
 
         <!-- Column 4: google map iframe -->
         <div class="col-lg-3 col-md-6">
-          <h4 class="footer-title">Our Location</h4>
+          <h3 class="footer-title">Our Location</h3>
           <div class="map-box">
             <iframe
               src="https://www.google.com/maps?q=Green+Plaza,+near+D+Mart+Road,+Mota+Varachha,+Surat,+Gujarat+394101&output=embed"
@@ -801,10 +1096,10 @@
   </div>
 
   <!-- ===== Scripts (jQuery + Bootstrap + Swiper + AOS + custom) ===== -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-  <script src="script.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script defer src="script.js"></script>
 </body>
 </html>
