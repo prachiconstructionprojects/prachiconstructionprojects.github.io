@@ -45,7 +45,7 @@ Scope: 27 indexable URLs (`index.html` + 12 original/service pages + 5 Gujarati 
 
 - Added the GA4 snippet with placeholder `G-XXXXXXXXXX` to every HTML page, loaded `analytics.js` async, and wired `whatsapp_click`, `phone_click`, `brochure_click` and `enquiry_form_submit` events.
 - Added preconnect hints for `https://cdn.jsdelivr.net` and `https://cdnjs.cloudflare.com`, and deferred non-critical scripts without reordering essential libraries.
-- Added `CNAME` with placeholder `your-domain.example` and documented custom-domain/HTTPS steps in `README.md`.
+- Removed the placeholder `CNAME` file that contained `your-domain.example`; keeping it would make GitHub Pages redirect the site to an invalid custom domain. Documented custom-domain/HTTPS steps in `README.md` for when a real domain is supplied.
 - Core Web Vitals risk check: all images have intrinsic dimensions and below-fold images are lazy; `/gu/` pages are the only pages loading the Gujarati font, using `display=swap`; no layout-shift-prone inline image sizing issues were found.
 
 ## Final scan after `/info4.md`
@@ -80,7 +80,7 @@ These cannot be safely resolved without real information. All are tracked in `TO
 
 - Replace all `[CONFIRM WITH OWNER: ...]` placeholders, especially rates, timelines, technical loads/tolerances, service areas, opening hours and geo coordinates.
 - Replace `G-XXXXXXXXXX` in every page with the real GA4 measurement ID before launch.
-- Replace `CNAME` placeholder `your-domain.example` with the real domain, or delete it, and configure DNS/HTTPS as documented in `README.md`.
+- If a real custom domain is later supplied, add a `CNAME` file with that domain and configure DNS/HTTPS as documented in `README.md`; do not re-add the `your-domain.example` placeholder.
 - Supply real project details and publication-cleared before/during/after photos before any case-study page is created from `projects/_template.html`.
 - Confirm or replace the sample projects and duplicated testimonials, and supply written permission for any real quotes.
 - Confirm real project counts, built-up area totals and the `10+ years` experience claim; counters currently conflict between pages.

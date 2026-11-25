@@ -98,7 +98,7 @@ Added after the eight new textile/industrial service pages were created from `in
 ## 10. `/info4.md` additions — P0/P1
 
 - [ ] Replace `G-XXXXXXXXXX` in every HTML head with the real GA4 measurement ID before launch. `analytics.js` is already wired to `whatsapp_click`, `phone_click`, `brochure_click` and `enquiry_form_submit`.
-- [ ] Replace `CNAME` content `your-domain.example` with the real domain, or delete the file if staying on `prachiconstructionprojects.github.io`. Follow `README.md` for DNS and Enforce HTTPS.
+- [x] Removed the placeholder `CNAME` file containing `your-domain.example` so the site can serve from `prachiconstructionprojects.github.io`. If a real custom domain is later supplied, add a `CNAME` file with that exact domain and follow `README.md` for DNS and Enforce HTTPS.
 - [ ] Supply real project details for `projects/_template.html`: project name/type, Surat area, built-up size, duration, scope, challenges/solutions, materials and publication-cleared before/during/after photos. No case-study page will be created until this is supplied.
 - [ ] Have a native Gujarati speaker review the five `/gu/` pages for natural wording and local terminology before launch.
 - [ ] Have a qualified local consultant verify the general approvals guide (SMC/SUDA/GIDC/GPCB references) before publishing it as advice.
@@ -146,7 +146,7 @@ These exact placeholder texts will be used in pages until you fill them in. Each
 | `[CONFIRM WITH OWNER: current rate per sq ft for textile construction work]` | cost guide page |
 | `[CONFIRM WITH OWNER: quote validity period]` | cost guide page |
 | `G-XXXXXXXXXX` | GA4 measurement ID in every HTML head |
-| `your-domain.example` | `CNAME` placeholder |
+| `your-domain.example` | Removed placeholder `CNAME`; do not re-add it unless it is a real owned domain |
 | `[PROJECT NAME]` / `[AREA IN SURAT]` / `[BUILT-UP SIZE]` | `projects/_template.html` fields |
 | `[CONFIRM WITH OWNER: approved load, vibration, humidity and tolerance values]` | Gujarati loom-shed page and technical guides |
 | `[CONFIRM WITH OWNER / STRUCTURAL ENGINEER: ...]` | airjet/waterjet/foundation guides and pages |

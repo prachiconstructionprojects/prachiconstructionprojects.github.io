@@ -24,7 +24,7 @@ Static marketing website for Prachi Construction Projects, hosted with GitHub Pa
 - `projects/_template.html` — reusable case-study template. Do not publish or fill with invented data; wait for owner-supplied real projects.
 - `404.html` — custom not-found page with main links and WhatsApp CTA.
 - `analytics.js` — GA4 event helper for WhatsApp, phone, brochure and enquiry-form clicks. The measurement ID is a placeholder in every HTML head.
-- `CNAME` — placeholder custom-domain file. Delete it or replace it only when the owner has a real domain; see below.
+- No `CNAME` file is present while the site uses the default `prachiconstructionprojects.github.io` domain. Add one only when the owner has a real custom domain; see below.
 - `sitemap.xml` — all English, Gujarati and guide URLs with `lastmod` dates, priorities and hreflang alternates.
 - `robots.txt` — crawl permissions for all crawlers plus explicit AI crawler rules and the sitemap URL.
 - `llms.txt` — plain-text business summary, NAP, services, areas and key page links for AI tools.
@@ -56,7 +56,7 @@ Push the repository to the configured GitHub Pages branch. No local build or pac
 
 ## Connecting a custom domain
 
-1. Do not publish the current `CNAME` placeholder while the live site is still using `prachiconstructionprojects.github.io`. It contains `your-domain.example` only as a reminder.
+1. Do not add a `CNAME` file while the live site is using `prachiconstructionprojects.github.io`. A placeholder such as `your-domain.example` will make GitHub Pages redirect the site to that invalid domain.
 2. When the owner supplies a real domain, replace the contents of `CNAME` with that domain (no `https://` and no trailing slash), for example `www.example.com`.
 3. In the GitHub repository, open **Settings → Pages → Custom domain**, enter the same domain and save. GitHub will create or update the `CNAME` file and add the DNS records it expects.
 4. Add the DNS records at the domain registrar: an `A` record to `185.199.108.153`, `185.199.109.153`, `185.199.110.153` and `185.199.111.153` for the apex, or a `CNAME` record to `prachiconstructionprojects.github.io` for `www`. Follow the exact records GitHub shows for the chosen domain.
